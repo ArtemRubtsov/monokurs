@@ -37,7 +37,7 @@ jobs:
           cache: 'pnpm'
       - name: Install pnpm
         run: |
-          npm install -g pnpm
+          curl -fsSL https://get.pnpm.io/v6.16.js | node - add --global pnpm
           pnpm --version  # Проверяем, что pnpm установлен
       - name: Install dependencies
         run: pnpm install
@@ -53,4 +53,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
