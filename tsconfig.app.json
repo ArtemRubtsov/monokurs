@@ -5,6 +5,8 @@
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
+    "types": ["react", "react-dom"],
+    "typeRoots": ["node_modules/@types"],
     "skipLibCheck": true,
 
     /* Bundler mode */
