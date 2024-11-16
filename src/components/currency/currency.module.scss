@@ -1,0 +1,29 @@
+.currency{
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    .card{
+        padding: 20px;
+        border-radius: 20px;
+        max-width: 300px;
+        object-fit: cover;
+        background-color: black;
+        border: 1px solid #50ffd8;
+        .title{
+            color: #fa5255;
+        }
+        .info{
+            color: whitesmoke;
+        }
+        span{
+            margin-left: 20px;
+            color: #7bff6b;
+            border-top: 1px solid #ff54bf;
+            border-right: 1px solid #ff54bf;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    }
+}

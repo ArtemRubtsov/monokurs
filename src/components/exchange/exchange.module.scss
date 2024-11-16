@@ -1,0 +1,15 @@
+.exchange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1110px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 50px 10px;
+    border-radius: 30px;
+    .title{
+        color: #1C9DFD5D;
+        margin-bottom: 50px;
+    }
+}

@@ -1,8 +1,7 @@
-export type Currency = {
-    "currencyCodeA": number
-    "currencyCodeB": number
-    "date": number
-    "rateSell":number
-    "rateBuy": number
-    "rateCross": number
+export type CurrencyResponse = {
+  cc: string
+  exchangedate: string
+  r030: number
+  rate: number
+  txt: number
 }
